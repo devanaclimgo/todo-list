@@ -17,8 +17,30 @@ header div {
   align-items: center;
 }
 
+h3 .span {
+  color: var(--cor-primaria) !important;
+}
+
 .menu {
   display: flex;
   justify-content: space-around;
   width: 47%;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item img {
+  padding-right: 0.5rem;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+  color: var(--cor-primaria);
+}
+
+.menu-item img:hover {
+  color: var(--cor-primaria);
 }
