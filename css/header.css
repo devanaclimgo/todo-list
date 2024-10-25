@@ -52,7 +52,7 @@ header div {
 }
 
 .perfil input {
-  background-color: #999999;
+  background-color: #F0F0F0;
   border: none;
   color: white;
   border-radius: 25px;
@@ -60,7 +60,7 @@ header div {
 }
 
 .perfil input::placeholder {
-  color: white;
+  color: var(--cor-texto);
   padding-left: 1.5rem;
   align-self: center;
 }
