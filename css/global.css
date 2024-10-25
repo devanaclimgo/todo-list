@@ -6,7 +6,9 @@
 }
 
 body {
-  background-color: white;
+  background-color: #F2F2F2;
+  font-family: var(--fonte-principal);
+  color: var(--cor-texto);
 }
 
 :root {
@@ -14,6 +16,11 @@ body {
   --cor-secundaria: #08415C;
   --cor-neutra: #6B818C;
   --cor-fundo: #EEE5E9;
+  --cor-texto: #333333;
 
-  --fonte-principal: 'Poppins', sans-serif;
+  --fonte-principal: "Poppins", serif;
+}
+
+a {
+  text-decoration: none;
 }
