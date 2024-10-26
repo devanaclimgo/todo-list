@@ -4,8 +4,8 @@ const quotes = [
     "source": "Tom Morris"
   },
   {
-    "quote": "Could we change our attitude, we should not only see life differently, but life itself would come to be different. Life would undergo a change of appearance because we ourselves had undergone a change in attitude.",
-    "source": "Katherine Mansfield "
+    "quote": "Goals transform a random walk into a chase.",
+    "source": "Mihaly Csikszentmihalyi"
   },
   {
     "quote": "We do not need magic to transform our world. We carry all the power we need inside ourselves already. We have the power to imagine better.",
@@ -36,8 +36,8 @@ const quotes = [
     "source": "Pierre Trudeau"
   },
   {
-    "quote": "I don't believe that if you do good, good things will happen. Everything is completely accidental and random. Sometimes bad things happen to very good people and sometimes good things happen to bad people. But at least if you try to do good things, then you're spending your time doing something worthwhile.",
-    "source": "Hellen Mirren"
+    "quote": "Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you.",
+    "source": "Princess Diana"
   },
 ]
 
