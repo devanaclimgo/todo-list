@@ -27,3 +27,18 @@ a {
   text-decoration: none;
   color: var(--cor-texto);
 }
+
+input {
+  background-color: #F0F0F0;
+  border: none;
+  color: var(--cor-texto);
+  border-radius: 25px;
+  padding: 0.2rem;
+  padding-left: 1.7rem;
+}
+
+input::placeholder {
+  color: var(--cor-texto);
+  padding-left: 1.5rem;
+  align-self: center;
+}
