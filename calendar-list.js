@@ -6,6 +6,7 @@ const taskList = document.getElementById('taskList')
     if (taskInput.value != '') {
       const newTask = document.createElement('li')
 
+      let isCompleted = false
       const markBtn = document.createElement('button')
       markBtn.innerHTML = `<svg width="20" height="20" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="none"> <path stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M29 16a13 13 0 11-26 0 13 13 0 0126 0h0z"/>
     <path stroke="red" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.5 16l3.5 3.5 6-6"/>
@@ -13,9 +14,18 @@ const taskList = document.getElementById('taskList')
       markBtn.addEventListener('click', () => {
         const svg = markBtn.querySelector('svg')
         const paths = svg.querySelectorAll('path')
-        paths.forEach(path => {
-          path.style.stroke = 'green'
-        })
+
+        if (isCompleted) {
+          paths.forEach(path => {
+            path.style.stroke = '#FF764C'
+          })
+          isCompleted = false
+        } else {
+          paths.forEach(path => {
+            path.style.stroke = '#00994C'
+          })
+          isCompleted = true
+        }
       })
 
       newTask.appendChild(markBtn)
