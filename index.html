@@ -34,16 +34,7 @@
   <main>
     <section class="main-container main-bg">
       <div class="random-pics" id="pictures"></div>
-      <div id="container">
-        <div class="left">
-          <div class="calendar">
-            <div class="month">
-              <i class="fa fa-angle-left prev"></i>
-              <div class="date">october 2024</div>
-              <i class="fa fa-angle-right next"></i>
-            </div>
-          </div>
-        </div>
+      <div id="calendar">
       </div>
     </section>
     <section class="main-list main-bg">
@@ -56,12 +47,15 @@
         </blockquote>
         <div class="send">
         <input type="text" id="taskInput" placeholder="I want to...">
-        <button><img src="./img/right-arrow.svg.svg" width="20" height="20" alt="Send task"></button>
+        <button id="AddBtn"><img src="./img/right-arrow.svg.svg" width="20" height="20" alt="Send task"></button>
       </div>
       </div>
       <div>
         <ul id="taskList">
-          <!-- make with js -->
+          <li id="taskElement">
+            <button><img src="./img/completed.svg.svg" width="20" alt=""></button>
+            teste
+          </li>
         </ul>
       </div>
     </section>
