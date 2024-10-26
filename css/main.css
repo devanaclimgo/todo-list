@@ -11,6 +11,7 @@ blockquote {
   color: var(--cor-texto);
   font-weight: 500;
   padding-bottom: 0.4rem;
+  max-width: 42ch;
 }
 
 #source {
