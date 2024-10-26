@@ -25,3 +25,10 @@ const taskList = document.getElementById('taskList')
       taskInput.value = ''
     }
   })
+
+  const button = taskInput.addEventListener('keydown', (event) => {
+    if (event.keyCode === 13) {
+      event.preventDefault()
+      addBtn.click()
+    }
+  })
