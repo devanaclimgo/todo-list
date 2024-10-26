@@ -10,6 +10,7 @@ blockquote {
   font-style: italic;
   color: var(--cor-texto);
   font-weight: 500;
+  padding-bottom: 0.4rem;
 }
 
 #source {
