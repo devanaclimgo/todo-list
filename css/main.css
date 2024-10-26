@@ -1,0 +1,20 @@
+blockquote {
+  padding-left: 1.2rem;
+  border-left: 4px solid var(--cor-fundo);
+  margin: 1.3rem;
+}
+
+#quotation {
+  font-family: 'Playfair';
+  font-size: 20px;
+  font-style: italic;
+  color: var(--cor-texto);
+  font-weight: 500;
+}
+
+#source {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: var(--cor-neutra);
+  font-weight: 100;
+}
