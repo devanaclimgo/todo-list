@@ -59,6 +59,10 @@ li:hover {
   border-radius: 6px;
 }
 
+li:hover > button {
+  background-color: #F0F0F0;
+}
+
 li button {
   background-color: var(--cor-fundo);
   border: none;
